@@ -767,7 +767,7 @@ define({ "api": [
     "description": "<p>get the children of a specified category.</p>",
     "permission": [
       {
-        "name": "super admin, admin, plugin, customer, guest"
+        "name": "admin, plugin, customer, guest"
       }
     ],
     "success": {
@@ -1065,7 +1065,7 @@ define({ "api": [
     "description": "<p>List categories, or fetch a specific one if an id is specified.</p>",
     "permission": [
       {
-        "name": "super admin, admin, plugin, customer, guest"
+        "name": "admin, plugin, customer, guest"
       }
     ],
     "parameter": {
@@ -1130,7 +1130,7 @@ define({ "api": [
     "description": "<p>get a tree of the categories.</p>",
     "permission": [
       {
-        "name": "super admin, admin, plugin, customer, guest"
+        "name": "admin, plugin, customer, guest"
       }
     ],
     "success": {
@@ -1329,7 +1329,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/clientaccount/count",
+    "url": "/api/clientaccount/count",
     "title": "count",
     "name": "Count",
     "group": "ClientAccount",
@@ -1545,7 +1545,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/clientaccount/export",
+    "url": "/api/clientaccount/export",
     "title": "export",
     "name": "Export",
     "group": "ClientAccount",
@@ -5364,177 +5364,6 @@ define({ "api": [
     "groupTitle": "Email"
   },
   {
-    "type": "post",
-    "url": "/feed",
-    "title": "create",
-    "name": "Create",
-    "group": "Feed",
-    "version": "2.0.1",
-    "description": "<p>Create a new feed. Must be from in godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "name",
-            "description": "<p>Name of the feed</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "short_description",
-            "description": "<p>Non HTML description of few words.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "html_description",
-            "description": "<p>HTML description, can be as long as you want.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "json_credentials_description",
-            "description": "<p>Hash describing the form (the key must be the label and the value the field name).</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "status",
-            "description": "<p>Must be either validated are pending. Possible values: 'validated','pending'</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "client_id",
-            "description": "<p>Email that is gonna generate .</p>"
-          }
-        ]
-      }
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "feed_id",
-            "description": "<p>ID of the feed created.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 201 Created\n{\n   \"code\": 201,\n   \"status\": \"Created\",\n   \"result\": \"Created\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedApiController.php",
-    "groupTitle": "Feed"
-  },
-  {
-    "type": "delete",
-    "url": "/feed",
-    "title": "delete",
-    "name": "Delete",
-    "group": "Feed",
-    "version": "2.0.1",
-    "description": "<p>Delete a feed. Must be from in godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          }
-        ]
-      }
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "success": {
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 No content\n{\n   \"code\": 200,\n   \"status\": \"No content\",\n   \"result\": \"No content\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedApiController.php",
-    "groupTitle": "Feed"
-  },
-  {
-    "type": "get",
-    "url": "/feed/export",
-    "title": "export",
-    "name": "Export",
-    "group": "Feed",
-    "version": "2.0.1",
-    "description": "<p>Export feed table.</p>",
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>mandatory oAuth2.0 client token (GET).</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "cvs",
-            "optional": false,
-            "field": "result",
-            "description": "<p>List of feeds.</p>"
-          }
-        ]
-      }
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedApiController.php",
-    "groupTitle": "Feed"
-  },
-  {
     "type": "get",
     "url": "/feed/[:id]",
     "title": "read",
@@ -5544,7 +5373,7 @@ define({ "api": [
     "description": "<p>List feeds, or fetch a specific one.</p>",
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "parameter": {
@@ -5627,7 +5456,7 @@ define({ "api": [
     },
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "success": {
@@ -5676,7 +5505,7 @@ define({ "api": [
     },
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "success": {
@@ -5701,7 +5530,7 @@ define({ "api": [
     "description": "<p>Export FeedSubscribers Table of the current store.</p>",
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "parameter": {
@@ -5743,7 +5572,7 @@ define({ "api": [
     "description": "<p>List feed subscriptions, or fetch a specific one.</p>",
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "parameter": {
@@ -5842,7 +5671,7 @@ define({ "api": [
     },
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "success": {
@@ -5888,86 +5717,6 @@ define({ "api": [
         {
           "title": "Success-Response:",
           "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [{\n       \"id\": \"\",\n       \"date_created\": \"2015-05-01 13:24:05\",\n       \"date_modified\": \"2015-05-01 13:24:05\",\n       \"store_name\": \"sample\",\n       \"feed_id\": \"42\",\n       \"credentials\": \"{\\\"test\\\":\\\"84\\\",\\\"test2\\\":\\\"42\\\"}\"\n   }]\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedApiController.php",
-    "groupTitle": "Feed"
-  },
-  {
-    "type": "put",
-    "url": "/feed/:id",
-    "title": "update",
-    "name": "Update",
-    "group": "Feed",
-    "version": "2.0.1",
-    "description": "<p>Update a feed. Must be from in godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "name",
-            "description": "<p>Name of the feed</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "short_description",
-            "description": "<p>Non HTML description of few words.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "html_description",
-            "description": "<p>HTML description, can be as long as you want.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "json_credentials_description",
-            "description": "<p>Hash describing the form (the key must be the label and the value the field name).</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "status",
-            "description": "<p>Must be either validated are pending. Possible values: 'validated','pending'</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "client_id",
-            "description": "<p>Email that is gonna generate .</p>"
-          }
-        ]
-      }
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "success": {
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 No content\n{\n   \"code\": 200,\n   \"status\": \"No content\",\n   \"result\": \"No content\"\n}",
           "type": "json"
         }
       ]
@@ -6859,6 +6608,7 @@ define({ "api": [
     "title": "cancel",
     "name": "Cancel",
     "group": "Import",
+    "version": "2.0.1",
     "description": "<p>Cancel an import</p>",
     "parameter": {
       "fields": {
@@ -6889,7 +6639,6 @@ define({ "api": [
         }
       ]
     },
-    "version": "0.0.0",
     "filename": "./app/protected/modules/store/controllers/api/ImportApiController.php",
     "groupTitle": "Import"
   },
@@ -7143,7 +6892,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/location/count",
+    "url": "/api/location/count",
     "title": "count",
     "name": "Count",
     "group": "Location",
@@ -7199,7 +6948,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/location",
+    "url": "/api/location",
     "title": "create",
     "name": "Create",
     "group": "Location",
@@ -7321,7 +7070,7 @@ define({ "api": [
   },
   {
     "type": "delete",
-    "url": "api/location/:id",
+    "url": "/api/location/:id",
     "title": "delete",
     "name": "Delete",
     "group": "Location",
@@ -7359,7 +7108,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/location/export",
+    "url": "/api/location/export",
     "title": "export",
     "name": "Export",
     "group": "Location",
@@ -7415,7 +7164,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/location/[:id]",
+    "url": "/api/location/[:id]",
     "title": "read",
     "name": "Read",
     "group": "Location",
@@ -7583,7 +7332,7 @@ define({ "api": [
   },
   {
     "type": "put",
-    "url": "api/location/:id",
+    "url": "/api/location/:id",
     "title": "update",
     "name": "Update",
     "group": "Location",
@@ -7705,7 +7454,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/location/within",
+    "url": "/api/location/within",
     "title": "within",
     "name": "Within",
     "group": "Location",
@@ -7782,7 +7531,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/log/count",
+    "url": "/api/log/count",
     "title": "count",
     "name": "Count",
     "group": "Log",
@@ -7838,7 +7587,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/log",
+    "url": "/api/log",
     "title": "create",
     "name": "Create",
     "group": "Log",
@@ -7897,7 +7646,7 @@ define({ "api": [
   },
   {
     "type": "delete",
-    "url": "api/log/:id",
+    "url": "/api/log/:id",
     "title": "delete",
     "name": "Delete",
     "group": "Log",
@@ -7935,7 +7684,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/log/export",
+    "url": "/api/log/export",
     "title": "export",
     "name": "Export",
     "group": "Log",
@@ -7991,7 +7740,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/log",
+    "url": "/api/log",
     "title": "read",
     "name": "Read",
     "group": "Log",
@@ -11261,10 +11010,11 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/<selected_model>/[:id]",
+    "url": "/api/<selected_model>/[:id]",
     "title": "read",
     "name": "Read",
     "group": "ReadAttributes",
+    "version": "2.0.1",
     "description": "<p>This part show you what are the parameters you can use for the read methods to filter and format your data.<br /></p>",
     "permission": [
       {
@@ -11348,7 +11098,6 @@ define({ "api": [
         ]
       }
     },
-    "version": "0.0.0",
     "filename": "./app/protected/components/ApiControllerBase.php",
     "groupTitle": "ReadAttributes"
   },
@@ -11416,7 +11165,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/registry/count",
+    "url": "/api/registry/count",
     "title": "count",
     "name": "Count",
     "group": "Registry",
@@ -11580,7 +11329,7 @@ define({ "api": [
   },
   {
     "type": "delete",
-    "url": "api/registry/:id",
+    "url": "/api/registry/:id",
     "title": "delete",
     "name": "Delete",
     "group": "Registry",
@@ -11618,7 +11367,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/registry/export",
+    "url": "/api/registry/export",
     "title": "export",
     "name": "Export",
     "group": "Registry",
@@ -11674,7 +11423,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/registryitem/count",
+    "url": "/api/registryitem/count",
     "title": "count",
     "name": "Count",
     "group": "RegistryItem",
@@ -11796,7 +11545,7 @@ define({ "api": [
   },
   {
     "type": "delete",
-    "url": "api/registryitem/:id",
+    "url": "/api/registryitem/:id",
     "title": "delete",
     "name": "Delete",
     "group": "RegistryItem",
@@ -11834,7 +11583,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/registryitem/export",
+    "url": "/api/registryitem/export",
     "title": "export",
     "name": "Export",
     "group": "RegistryItem",
@@ -12152,7 +11901,7 @@ define({ "api": [
   },
   {
     "type": "POST",
-    "url": "api/registry/:id/makedefault",
+    "url": "/api/registry/:id/makedefault",
     "title": "make default",
     "name": "Make_Default",
     "group": "Registry",
@@ -12459,7 +12208,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "repo/fileexists",
+    "url": "/repo/fileexists",
     "title": "file exists",
     "name": "FileExists",
     "group": "Repo",
@@ -12523,7 +12272,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "repo/getfile",
+    "url": "/repo/getfile",
     "title": "get file",
     "name": "GetFile",
     "group": "Repo",
@@ -12610,7 +12359,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "repo/movefile",
+    "url": "/repo/movefile",
     "title": "move file",
     "name": "MoveFile",
     "group": "Repo",
@@ -12689,7 +12438,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "repo/putfile",
+    "url": "/repo/putfile",
     "title": "put file",
     "name": "PutFile",
     "group": "Repo",
@@ -12760,7 +12509,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "repo/[:id]",
+    "url": "/repo/[:id]",
     "title": "read",
     "name": "Read",
     "group": "Repo",
@@ -12832,7 +12581,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "repo/",
+    "url": "/repo/",
     "title": "create",
     "name": "create",
     "group": "Repo",
@@ -12848,7 +12597,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "repo/gethistory",
+    "url": "/repo/gethistory",
     "title": "get history",
     "name": "gethistory",
     "group": "Repo",
@@ -12912,7 +12661,7 @@ define({ "api": [
   },
   {
     "type": "put",
-    "url": "repo/[:id]",
+    "url": "/repo/[:id]",
     "title": "update",
     "name": "update",
     "group": "Repo",
@@ -12927,177 +12676,6 @@ define({ "api": [
     "groupTitle": "Repo"
   },
   {
-    "type": "post",
-    "url": "/service",
-    "title": "create",
-    "name": "Create",
-    "group": "Service",
-    "version": "2.0.1",
-    "description": "<p>Create a new service. Must be from in godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "name",
-            "description": "<p>Name of the service</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "short_description",
-            "description": "<p>Non HTML description of few words.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "html_description",
-            "description": "<p>HTML description, can be as long as you want.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "json_credentials_description",
-            "description": "<p>Hash describing the form (the key must be the label and the value the field name).</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "status",
-            "description": "<p>Must be either validated are pending. Possible values: 'validated','pending'</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "client_id",
-            "description": "<p>Email that is gonna generate .</p>"
-          }
-        ]
-      }
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "service_id",
-            "description": "<p>ID of the service created.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 201 Created\n{\n   \"code\": 201,\n   \"status\": \"Created\",\n   \"result\": \"Created\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/ServiceApiController.php",
-    "groupTitle": "Service"
-  },
-  {
-    "type": "delete",
-    "url": "/service",
-    "title": "delete",
-    "name": "Delete",
-    "group": "Service",
-    "version": "2.0.1",
-    "description": "<p>Delete a service. Must be from in godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          }
-        ]
-      }
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "success": {
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 No content\n{\n   \"code\": 200,\n   \"status\": \"No content\",\n   \"result\": \"No content\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/ServiceApiController.php",
-    "groupTitle": "Service"
-  },
-  {
-    "type": "get",
-    "url": "/service/export",
-    "title": "export",
-    "name": "Export",
-    "group": "Service",
-    "version": "2.0.1",
-    "description": "<p>Export Service table.</p>",
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>mandatory oAuth2.0 client token (GET).</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "cvs",
-            "optional": false,
-            "field": "result",
-            "description": "<p>List of Services.</p>"
-          }
-        ]
-      }
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/ServiceApiController.php",
-    "groupTitle": "Service"
-  },
-  {
     "type": "get",
     "url": "/service/[:id]",
     "title": "read",
@@ -13107,7 +12685,7 @@ define({ "api": [
     "description": "<p>List services, or fetch a specific one.</p>",
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "parameter": {
@@ -13190,7 +12768,7 @@ define({ "api": [
     },
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "success": {
@@ -13239,7 +12817,7 @@ define({ "api": [
     },
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "success": {
@@ -13264,7 +12842,7 @@ define({ "api": [
     "description": "<p>Export ServiceSubscribers Table of the current store.</p>",
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "parameter": {
@@ -13306,7 +12884,7 @@ define({ "api": [
     "description": "<p>List service subscriptions, or fetch a specific one.</p>",
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "parameter": {
@@ -13405,7 +12983,7 @@ define({ "api": [
     },
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "success": {
@@ -13451,86 +13029,6 @@ define({ "api": [
         {
           "title": "Success-Response:",
           "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [{\n       \"id\": \"\",\n       \"date_created\": \"2015-05-01 13:24:05\",\n       \"date_modified\": \"2015-05-01 13:24:05\",\n       \"store_name\": \"sample\",\n       \"service_id\": \"42\",\n       \"credentials\": \"{\\\"test\\\":\\\"84\\\",\\\"test2\\\":\\\"42\\\"}\"\n   }]\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/ServiceApiController.php",
-    "groupTitle": "Service"
-  },
-  {
-    "type": "put",
-    "url": "/service/:id",
-    "title": "update",
-    "name": "Update",
-    "group": "Service",
-    "version": "2.0.1",
-    "description": "<p>Update a service. Must be from in godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "name",
-            "description": "<p>Name of the service</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "short_description",
-            "description": "<p>Non HTML description of few words.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "html_description",
-            "description": "<p>HTML description, can be as long as you want.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "json_credentials_description",
-            "description": "<p>Hash describing the form (the key must be the label and the value the field name).</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "status",
-            "description": "<p>Must be either validated are pending. Possible values: 'validated','pending'</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "client_id",
-            "description": "<p>Email that is gonna generate .</p>"
-          }
-        ]
-      }
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "success": {
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 No content\n{\n   \"code\": 200,\n   \"status\": \"No content\",\n   \"result\": \"No content\"\n}",
           "type": "json"
         }
       ]
@@ -14169,7 +13667,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/shippingexception/count",
+    "url": "/api/shippingexception/count",
     "title": "count",
     "name": "Count",
     "group": "ShippingException",
@@ -14225,7 +13723,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/shippingexception",
+    "url": "/api/shippingexception",
     "title": "create",
     "name": "Create",
     "group": "ShippingException",
@@ -14284,7 +13782,7 @@ define({ "api": [
   },
   {
     "type": "delete",
-    "url": "api/shippingexception/:id",
+    "url": "/api/shippingexception/:id",
     "title": "delete",
     "name": "Delete",
     "group": "ShippingException",
@@ -14322,7 +13820,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/shippingexception/export",
+    "url": "/api/shippingexception/export",
     "title": "export",
     "name": "Export",
     "group": "ShippingException",
@@ -14378,7 +13876,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/shippingexception/[:id]",
+    "url": "/api/shippingexception/[:id]",
     "title": "read",
     "name": "Read",
     "group": "ShippingException",
@@ -14469,7 +13967,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/shippingexception/:id",
+    "url": "/api/shippingexception/:id",
     "title": "update",
     "name": "Update",
     "group": "ShippingException",
@@ -14528,7 +14026,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/shippingmethod/:id/calculate",
+    "url": "/api/shippingmethod/:id/calculate",
     "title": "calculate",
     "name": "Calculate",
     "group": "ShippingMethod",
@@ -14598,7 +14096,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/shippingmethod/count",
+    "url": "/api/shippingmethod/count",
     "title": "count",
     "name": "Count",
     "group": "ShippingMethod",
@@ -14654,7 +14152,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/shippingmethod",
+    "url": "/api/shippingmethod",
     "title": "create",
     "name": "Create",
     "group": "ShippingMethod",
@@ -14737,7 +14235,7 @@ define({ "api": [
   },
   {
     "type": "delete",
-    "url": "api/shippingmethod/:id",
+    "url": "/api/shippingmethod/:id",
     "title": "delete",
     "name": "Delete",
     "group": "ShippingMethod",
@@ -14775,7 +14273,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/shippingmethod/export",
+    "url": "/api/shippingmethod/export",
     "title": "export",
     "name": "Export",
     "group": "ShippingMethod",
@@ -14831,7 +14329,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/shippingmethod/:id/rate",
+    "url": "/api/shippingmethod/:id/rate",
     "title": "rate",
     "name": "Rate",
     "group": "ShippingMethod",
@@ -14894,7 +14392,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/shippingmethod/[:id]",
+    "url": "/api/shippingmethod/[:id]",
     "title": "read",
     "name": "Read",
     "group": "ShippingMethod",
@@ -15013,7 +14511,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/shippingmethod/:id",
+    "url": "/api/shippingmethod/:id",
     "title": "update",
     "name": "Update",
     "group": "ShippingMethod",
@@ -15096,7 +14594,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/shippingrule/count",
+    "url": "/api/shippingrule/count",
     "title": "count",
     "name": "Count",
     "group": "ShippingRule",
@@ -15152,7 +14650,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/shippingrule",
+    "url": "/api/shippingrule",
     "title": "create",
     "name": "Create",
     "group": "ShippingRule",
@@ -15239,7 +14737,7 @@ define({ "api": [
   },
   {
     "type": "delete",
-    "url": "api/shippingrule/:id",
+    "url": "/api/shippingrule/:id",
     "title": "delete",
     "name": "Delete",
     "group": "ShippingRule",
@@ -15277,7 +14775,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/shippingrule/export",
+    "url": "/api/shippingrule/export",
     "title": "export",
     "name": "Export",
     "group": "ShippingRule",
@@ -15333,7 +14831,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "api/shippingrule/[:id]",
+    "url": "/api/shippingrule/[:id]",
     "title": "read",
     "name": "Read",
     "group": "ShippingRule",
@@ -15466,7 +14964,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "api/shippingrule/:id",
+    "url": "/api/shippingrule/:id",
     "title": "update",
     "name": "Update",
     "group": "ShippingRule",
@@ -15667,47 +15165,6 @@ define({ "api": [
         {
           "title": "Success-Response:",
           "content": "HTTP/1.1 200 OK\n{\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": \"XXXXX\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
-    "groupTitle": "Site"
-  },
-  {
-    "type": "delete",
-    "url": "/site/:id",
-    "title": "delete",
-    "name": "Delete",
-    "group": "Site",
-    "version": "2.0.1",
-    "description": "<p>Delete a site (DB entry, generated DB, preview, live and repo).</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "Boolean",
-            "optional": false,
-            "field": "SuperAdmin",
-            "description": "<p>The request must be done from godmode as Super administrator.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "format",
-            "defaultValue": "json",
-            "description": "<p>Return format, can also be xml.</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n    \"code\": 200,\n    \"status\": \"OK\",\n    \"result\": \"OK\"\n}",
           "type": "json"
         }
       ]
@@ -17589,149 +17046,6 @@ define({ "api": [
     "groupTitle": "Theme"
   },
   {
-    "type": "post",
-    "url": "/themestore",
-    "title": "create",
-    "name": "Create",
-    "group": "ThemeStore",
-    "version": "2.0.1",
-    "description": "<p>Create a new theme. Must be from in godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "slug",
-            "description": "<p>New Theme slug.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "title",
-            "description": "<p>New Theme title.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "name",
-            "description": "<p>New Theme name.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "repository",
-            "description": "<p>New Theme repository url.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": false,
-            "field": "tag",
-            "description": "<p>New Theme tag.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": false,
-            "field": "type",
-            "description": "<p>New Theme type.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": false,
-            "field": "status",
-            "description": "<p>New Theme status.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": true,
-            "field": "description",
-            "description": "<p>New Theme description.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "access_token",
-            "description": "<p>oAuth2.0 client token (GET).</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "result",
-            "description": "<p>ID of theme created</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 201 OK\n{\n   \"code\": 201,\n   \"status\": \"OK\",\n   \"result\": \"7\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "filename": "./app/protected/modules/admin/controllers/api/ThemestoreApiController.php",
-    "groupTitle": "ThemeStore"
-  },
-  {
-    "type": "delete",
-    "url": "/themestore/[:id]",
-    "title": "delete",
-    "name": "Delete",
-    "group": "ThemeStore",
-    "version": "2.0.1",
-    "description": "<p>Delete a specific theme entry from the theme store. Must be from godmode.</p>",
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": \"OK\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/ThemestoreApiController.php",
-    "groupTitle": "ThemeStore"
-  },
-  {
     "type": "get",
     "url": "/themestore/getall",
     "title": "get all entries",
@@ -17790,7 +17104,7 @@ define({ "api": [
     },
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
     "filename": "./app/protected/modules/admin/controllers/api/ThemestoreApiController.php",
@@ -17855,96 +17169,9 @@ define({ "api": [
     },
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
-    "filename": "./app/protected/modules/admin/controllers/api/ThemestoreApiController.php",
-    "groupTitle": "ThemeStore"
-  },
-  {
-    "type": "put",
-    "url": "/themestore/:id",
-    "title": "update",
-    "name": "Update",
-    "group": "ThemeStore",
-    "version": "2.0.1",
-    "description": "<p>Update a Theme. Must be from in godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "slug",
-            "description": "<p>New Theme slug.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "title",
-            "description": "<p>New Theme title.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "name",
-            "description": "<p>New Theme name.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "repository",
-            "description": "<p>New Theme repository url.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": true,
-            "field": "tag",
-            "description": "<p>New Theme tag.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": true,
-            "field": "type",
-            "description": "<p>New Theme type.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": true,
-            "field": "status",
-            "description": "<p>New Theme status.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": true,
-            "field": "description",
-            "description": "<p>New Theme description.</p>"
-          }
-        ]
-      }
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "success": {
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 Ok\n{\n   \"code\": 200,\n   \"status\": \"Ok\",\n   \"result\": \"Ok\"\n}",
-          "type": "json"
-        }
-      ]
-    },
     "filename": "./app/protected/modules/admin/controllers/api/ThemestoreApiController.php",
     "groupTitle": "ThemeStore"
   },
@@ -19171,170 +18398,6 @@ define({ "api": [
     "groupTitle": "Widget"
   },
   {
-    "type": "post",
-    "url": "/widgetstore",
-    "title": "create",
-    "name": "Create",
-    "group": "WidgetStore",
-    "version": "2.0.1",
-    "description": "<p>Create a new widget. Must be from godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "slug",
-            "description": "<p>New Widget slug.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "title",
-            "description": "<p>New Widget title.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "image_url",
-            "description": "<p>New Widget image url.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": true,
-            "field": "attributes",
-            "description": "<p>New Widget attributes.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "content",
-            "description": "<p>New Widget content.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "data_query",
-            "description": "<p>New Widget query for its data.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": true,
-            "field": "tags",
-            "description": "<p>New Widget tags.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[Object]",
-            "optional": true,
-            "field": "images",
-            "description": "<p>New Widget images.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "type",
-            "description": "<p>New Widget type. Possible values: 'text','html',''.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "publish_date",
-            "description": "<p>New Widget publish_date.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "publish_date_end",
-            "description": "<p>New Widget publish_date_end.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "access_token",
-            "description": "<p>oAuth2.0 client token (GET).</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "result",
-            "description": "<p>ID of widget created</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 201 OK\n{\n   \"code\": 201,\n   \"status\": \"OK\",\n   \"result\": \"7\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "filename": "./app/protected/modules/admin/controllers/api/WidgetstoreApiController.php",
-    "groupTitle": "WidgetStore"
-  },
-  {
-    "type": "delete",
-    "url": "/widgetstore/[:id]",
-    "title": "delete",
-    "name": "Delete",
-    "group": "WidgetStore",
-    "version": "2.0.1",
-    "description": "<p>Delete a specific widget entry from the widget store. Must be from in godmode.</p>",
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": \"OK\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/admin/controllers/api/WidgetstoreApiController.php",
-    "groupTitle": "WidgetStore"
-  },
-  {
     "type": "get",
     "url": "/widgetstore/[:id]",
     "title": "read",
@@ -19393,117 +18456,9 @@ define({ "api": [
     },
     "permission": [
       {
-        "name": "admin, super_admin"
+        "name": "admin"
       }
     ],
-    "filename": "./app/protected/modules/admin/controllers/api/WidgetstoreApiController.php",
-    "groupTitle": "WidgetStore"
-  },
-  {
-    "type": "put",
-    "url": "/widgetstore/:id",
-    "title": "update",
-    "name": "Update",
-    "group": "WidgetStore",
-    "version": "2.0.1",
-    "description": "<p>Update a Widget. Must be from godmode.</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "slug",
-            "description": "<p>New Widget slug.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "title",
-            "description": "<p>New Widget title.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "image_url",
-            "description": "<p>New Widget image url.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": true,
-            "field": "attributes",
-            "description": "<p>New Widget attributes.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "content",
-            "description": "<p>New Widget content.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "data_query",
-            "description": "<p>New Widget query for its data.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[String]",
-            "optional": true,
-            "field": "tags",
-            "description": "<p>New Widget tags.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "[Object]",
-            "optional": true,
-            "field": "images",
-            "description": "<p>New Widget images.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "type",
-            "description": "<p>New Widget type. Possible values: 'text','html',''.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "publish_date",
-            "description": "<p>New Widget publish_date.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "publish_date_end",
-            "description": "<p>New Widget publish_date_end.</p>"
-          }
-        ]
-      }
-    },
-    "permission": [
-      {
-        "name": "super_admin"
-      }
-    ],
-    "success": {
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 Ok\n{\n   \"code\": 200,\n   \"status\": \"Ok\",\n   \"result\": \"Ok\"\n}",
-          "type": "json"
-        }
-      ]
-    },
     "filename": "./app/protected/modules/admin/controllers/api/WidgetstoreApiController.php",
     "groupTitle": "WidgetStore"
   },
@@ -20114,7 +19069,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "oauth/token",
+    "url": "/oauth/token",
     "title": "token (client_credentials)",
     "name": "Token__Client_Credentials_",
     "group": "oAuth",
@@ -20199,7 +19154,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "oauth/token",
+    "url": "/oauth/token",
     "title": "token (password)",
     "name": "Token__Password_",
     "group": "oAuth",
