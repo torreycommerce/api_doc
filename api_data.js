@@ -39,7 +39,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -80,7 +80,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -128,7 +128,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -187,7 +187,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -221,7 +221,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -255,7 +255,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -289,7 +289,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -334,7 +334,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -379,7 +379,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -420,7 +420,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -468,7 +468,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -516,7 +516,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/AclApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/AclApiController.php",
     "groupTitle": "ACL"
   },
   {
@@ -630,7 +630,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/godmode/controllers/api/AcendaContactUsApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/godmode/controllers/api/AcendaContactUsApiController.php",
     "groupTitle": "AcendaContactUs"
   },
   {
@@ -661,7 +661,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CatalogApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CatalogApiController.php",
     "groupTitle": "Catalog"
   },
   {
@@ -692,7 +692,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CatalogApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CatalogApiController.php",
     "groupTitle": "Catalog"
   },
   {
@@ -723,7 +723,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CatalogApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CatalogApiController.php",
     "groupTitle": "Catalog"
   },
   {
@@ -754,7 +754,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CategoryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CategoryApiController.php",
     "groupTitle": "Category"
   },
   {
@@ -790,7 +790,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CategoryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CategoryApiController.php",
     "groupTitle": "Category"
   },
   {
@@ -972,7 +972,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CategoryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CategoryApiController.php",
     "groupTitle": "Category"
   },
   {
@@ -1010,7 +1010,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CategoryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CategoryApiController.php",
     "groupTitle": "Category"
   },
   {
@@ -1052,7 +1052,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/store/controllers/api/CategoryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CategoryApiController.php",
     "groupTitle": "Category"
   },
   {
@@ -1117,7 +1117,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CategoryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CategoryApiController.php",
     "groupTitle": "Category"
   },
   {
@@ -1153,7 +1153,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CategoryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CategoryApiController.php",
     "groupTitle": "Category"
   },
   {
@@ -1324,7 +1324,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CategoryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CategoryApiController.php",
     "groupTitle": "Category"
   },
   {
@@ -1380,7 +1380,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1431,7 +1431,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1489,7 +1489,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1540,7 +1540,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1596,7 +1596,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1644,7 +1644,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1677,7 +1677,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1763,7 +1763,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1812,7 +1812,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1898,7 +1898,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -1952,7 +1952,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -2011,7 +2011,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -2105,7 +2105,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -2184,7 +2184,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -2235,7 +2235,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -2275,7 +2275,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/ClientaccountApiController.php",
     "groupTitle": "ClientAccount"
   },
   {
@@ -2419,7 +2419,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CollectionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CollectionApiController.php",
     "groupTitle": "Collection"
   },
   {
@@ -2457,7 +2457,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CollectionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CollectionApiController.php",
     "groupTitle": "Collection"
   },
   {
@@ -2501,7 +2501,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CollectionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CollectionApiController.php",
     "groupTitle": "Collection"
   },
   {
@@ -2532,7 +2532,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CollectionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CollectionApiController.php",
     "groupTitle": "Collection"
   },
   {
@@ -2683,7 +2683,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CollectionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CollectionApiController.php",
     "groupTitle": "Collection"
   },
   {
@@ -2728,7 +2728,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ConfigApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ConfigApiController.php",
     "groupTitle": "Config"
   },
   {
@@ -2773,7 +2773,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ConfigApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ConfigApiController.php",
     "groupTitle": "Config"
   },
   {
@@ -2817,12 +2817,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": {\n       \"components\": {\n          ...     \n       },\n       \"params\": {\n          ...\n       }\n   }\n}",
+          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": {\n       \"components\": {\n          ...\n       },\n       \"params\": {\n          ...\n       }\n   }\n}",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ConfigApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ConfigApiController.php",
     "groupTitle": "Config"
   },
   {
@@ -2878,7 +2878,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ConfigApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ConfigApiController.php",
     "groupTitle": "Config"
   },
   {
@@ -2943,7 +2943,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ContactApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ContactApiController.php",
     "groupTitle": "Contact"
   },
   {
@@ -2988,7 +2988,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
     "groupTitle": "Content"
   },
   {
@@ -3026,7 +3026,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
     "groupTitle": "Content"
   },
   {
@@ -3068,7 +3068,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
     "groupTitle": "Content"
   },
   {
@@ -3099,7 +3099,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
     "groupTitle": "Content"
   },
   {
@@ -3144,7 +3144,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/DefaultcontentApiController.php",
     "groupTitle": "Content"
   },
   {
@@ -3202,12 +3202,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 201 OK\n  { \n       code\": 201,\n       status: 'Created',\n       result: '9'\n  }",
+          "content": "HTTP/1.1 201 OK\n  {\n       code\": 201,\n       status: 'Created',\n       result: '9'\n  }",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponApiController.php",
     "groupTitle": "Coupon"
   },
   {
@@ -3305,7 +3305,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponApiController.php",
     "groupTitle": "Coupon"
   },
   {
@@ -3338,12 +3338,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n  { \n       code\": 200,\n       status: \"OK\",\n       result: \"OK\"\n  }",
+          "content": "HTTP/1.1 200 OK\n  {\n       code\": 200,\n       status: \"OK\",\n       result: \"OK\"\n  }",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponApiController.php",
     "groupTitle": "Coupon"
   },
   {
@@ -3401,12 +3401,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n  { \n       code\": 200,\n       status: \"OK\",\n       result: [\n          {\n              \"code\":\"abcde\",\n              \"discount\":\"10.00\"\n          }\n      ]\n  }",
+          "content": "HTTP/1.1 200 OK\n  {\n       code\": 200,\n       status: \"OK\",\n       result: [\n          {\n              \"code\":\"abcde\",\n              \"discount\":\"10.00\"\n          }\n      ]\n  }",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponApiController.php",
     "groupTitle": "Coupon"
   },
   {
@@ -3448,7 +3448,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponApiController.php",
     "groupTitle": "Coupon"
   },
   {
@@ -3508,12 +3508,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n  { \n       num_total: 1,\n       code\": 200,\n       status: \"OK\",\n       result: [\n          { \"id\": \"3\",\n            \"code\": [\"abcde\"],                        \n            \"date_begins\": \"2015-07-08T07:00:00.000Z\",\n            \"date_created\": \"2015-07-09 09:37:10\",\n            \"date_expires\": \"2015-08-08T07:00:00.000Z\",\n            \"date_modified\": \"2015-07-09 11:57:06\",\n            \"global\": \"1\",\n            \"number_uses\": \"100\",\n            \"single\": \"1\",\n            \"status\": \"active\",\n          }\n      ]\n  }",
+          "content": "HTTP/1.1 200 OK\n  {\n       num_total: 1,\n       code\": 200,\n       status: \"OK\",\n       result: [\n          { \"id\": \"3\",\n            \"code\": [\"abcde\"],\n            \"date_begins\": \"2015-07-08T07:00:00.000Z\",\n            \"date_created\": \"2015-07-09 09:37:10\",\n            \"date_expires\": \"2015-08-08T07:00:00.000Z\",\n            \"date_modified\": \"2015-07-09 11:57:06\",\n            \"global\": \"1\",\n            \"number_uses\": \"100\",\n            \"single\": \"1\",\n            \"status\": \"active\",\n          }\n      ]\n  }",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponApiController.php",
     "groupTitle": "Coupon"
   },
   {
@@ -3611,7 +3611,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponruleApiController.php",
     "groupTitle": "CouponRule"
   },
   {
@@ -3649,7 +3649,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponruleApiController.php",
     "groupTitle": "CouponRule"
   },
   {
@@ -3691,7 +3691,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponruleApiController.php",
     "groupTitle": "CouponRule"
   },
   {
@@ -3729,7 +3729,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponruleApiController.php",
     "groupTitle": "CouponRule"
   },
   {
@@ -3794,7 +3794,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponruleApiController.php",
     "groupTitle": "CouponRule"
   },
   {
@@ -3839,7 +3839,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponruleApiController.php",
     "groupTitle": "CouponRule"
   },
   {
@@ -3926,7 +3926,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponruleApiController.php",
     "groupTitle": "CouponRule"
   },
   {
@@ -4013,7 +4013,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CouponApiController.php",
     "groupTitle": "Coupon"
   },
   {
@@ -4146,7 +4146,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
     "groupTitle": "CustomerAddress"
   },
   {
@@ -4184,7 +4184,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
     "groupTitle": "CustomerAddress"
   },
   {
@@ -4222,7 +4222,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
     "groupTitle": "CustomerAddress"
   },
   {
@@ -4287,7 +4287,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
     "groupTitle": "CustomerAddress"
   },
   {
@@ -4409,7 +4409,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomeraddressApiController.php",
     "groupTitle": "CustomerAddress"
   },
   {
@@ -4475,7 +4475,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomerApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomerApiController.php",
     "groupTitle": "Customer"
   },
   {
@@ -4524,7 +4524,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomerApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomerApiController.php",
     "groupTitle": "Customer"
   },
   {
@@ -4601,7 +4601,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomerApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomerApiController.php",
     "groupTitle": "Customer"
   },
   {
@@ -4634,12 +4634,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n  { \n       code\": 200,\n       status: \"OK\",\n       result: \"OK\"\n  }",
+          "content": "HTTP/1.1 200 OK\n  {\n       code\": 200,\n       status: \"OK\",\n       result: \"OK\"\n  }",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomerApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomerApiController.php",
     "groupTitle": "Customer"
   },
   {
@@ -4681,7 +4681,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomerApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomerApiController.php",
     "groupTitle": "Customer"
   },
   {
@@ -4719,7 +4719,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
     "groupTitle": "CustomerNotification"
   },
   {
@@ -4796,7 +4796,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
     "groupTitle": "CustomerNotification"
   },
   {
@@ -4834,7 +4834,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
     "groupTitle": "CustomerNotification"
   },
   {
@@ -4899,7 +4899,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
     "groupTitle": "CustomerNotification"
   },
   {
@@ -4937,7 +4937,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
     "groupTitle": "CustomerNotification"
   },
   {
@@ -5003,7 +5003,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomernotificationApiController.php",
     "groupTitle": "CustomerNotification"
   },
   {
@@ -5063,12 +5063,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n  { \n       num_total: 1,\n       code\": 200,\n       status: \"OK\",\n       result: [\n          { \"full_name\": \"John Doe\",\n            \"state\": [],\n            \"imported\": \"\",\n            \"loginAttempts\": \"0\",\n            \"id\": \"6\",\n            \"date_created\": \"2015-06-11 14:22:55\",\n            \"date_modified\": \"2015-06-11 14:22:55\",\n            \"first_name\": \"John\",\n            \"last_name\": \"Doe\",\n            \"email\": \"johndoe@acenda.com\",\n            \"phone_number\": \"1234567890\",\n            \"password\": \"\" \n          }\n      ]\n  }",
+          "content": "HTTP/1.1 200 OK\n  {\n       num_total: 1,\n       code\": 200,\n       status: \"OK\",\n       result: [\n          { \"full_name\": \"John Doe\",\n            \"state\": [],\n            \"imported\": \"\",\n            \"loginAttempts\": \"0\",\n            \"id\": \"6\",\n            \"date_created\": \"2015-06-11 14:22:55\",\n            \"date_modified\": \"2015-06-11 14:22:55\",\n            \"first_name\": \"John\",\n            \"last_name\": \"Doe\",\n            \"email\": \"johndoe@acenda.com\",\n            \"phone_number\": \"1234567890\",\n            \"password\": \"\"\n          }\n      ]\n  }",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomerApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomerApiController.php",
     "groupTitle": "Customer"
   },
   {
@@ -5117,7 +5117,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomerApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomerApiController.php",
     "groupTitle": "Customer"
   },
   {
@@ -5183,7 +5183,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/CustomerApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/CustomerApiController.php",
     "groupTitle": "Customer"
   },
   {
@@ -5228,7 +5228,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/EmailApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/EmailApiController.php",
     "groupTitle": "Email"
   },
   {
@@ -5266,7 +5266,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/EmailApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/EmailApiController.php",
     "groupTitle": "Email"
   },
   {
@@ -5315,7 +5315,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/EmailApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/EmailApiController.php",
     "groupTitle": "Email"
   },
   {
@@ -5360,7 +5360,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/acenda/controllers/api/EmailApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/acenda/controllers/api/EmailApiController.php",
     "groupTitle": "Email"
   },
   {
@@ -5416,7 +5416,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/FeedApiController.php",
     "groupTitle": "Feed"
   },
   {
@@ -5479,7 +5479,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
     "groupTitle": "FeedSubscribers"
   },
   {
@@ -5517,7 +5517,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
     "groupTitle": "FeedSubscribers"
   },
   {
@@ -5559,7 +5559,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
     "groupTitle": "FeedSubscribers"
   },
   {
@@ -5624,7 +5624,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
     "groupTitle": "FeedSubscribers"
   },
   {
@@ -5683,7 +5683,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/FeedsubscribersApiController.php",
     "groupTitle": "FeedSubscribers"
   },
   {
@@ -5721,7 +5721,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/FeedApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/FeedApiController.php",
     "groupTitle": "Feed"
   },
   {
@@ -5779,7 +5779,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/FeedbackApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/FeedbackApiController.php",
     "groupTitle": "Feedback"
   },
   {
@@ -5849,7 +5849,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpblacklistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpblacklistApiController.php",
     "groupTitle": "IPBlacklist"
   },
   {
@@ -5905,7 +5905,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpblacklistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpblacklistApiController.php",
     "groupTitle": "IPBlacklist"
   },
   {
@@ -5943,7 +5943,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpblacklistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpblacklistApiController.php",
     "groupTitle": "IPBlacklist"
   },
   {
@@ -5985,7 +5985,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpblacklistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpblacklistApiController.php",
     "groupTitle": "IPBlacklist"
   },
   {
@@ -6050,7 +6050,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpblacklistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpblacklistApiController.php",
     "groupTitle": "IPBlacklist"
   },
   {
@@ -6095,7 +6095,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpblacklistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpblacklistApiController.php",
     "groupTitle": "IPBlacklist"
   },
   {
@@ -6165,7 +6165,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
     "groupTitle": "IPWhitelist"
   },
   {
@@ -6221,7 +6221,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
     "groupTitle": "IPWhitelist"
   },
   {
@@ -6259,7 +6259,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
     "groupTitle": "IPWhitelist"
   },
   {
@@ -6301,7 +6301,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
     "groupTitle": "IPWhitelist"
   },
   {
@@ -6366,7 +6366,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
     "groupTitle": "IPWhitelist"
   },
   {
@@ -6411,7 +6411,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/IpwhitelistApiController.php",
     "groupTitle": "IPWhitelist"
   },
   {
@@ -6470,7 +6470,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ImagebucketApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ImagebucketApiController.php",
     "groupTitle": "ImageBucket"
   },
   {
@@ -6540,7 +6540,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ImagebucketApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ImagebucketApiController.php",
     "groupTitle": "ImageBucket"
   },
   {
@@ -6599,7 +6599,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ImagebucketApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ImagebucketApiController.php",
     "groupTitle": "ImageBucket"
   },
   {
@@ -6639,7 +6639,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ImportApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ImportApiController.php",
     "groupTitle": "Import"
   },
   {
@@ -6829,7 +6829,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ImportApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ImportApiController.php",
     "groupTitle": "Import"
   },
   {
@@ -6887,7 +6887,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ImportApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ImportApiController.php",
     "groupTitle": "Import"
   },
   {
@@ -6943,7 +6943,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LocationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LocationApiController.php",
     "groupTitle": "Location"
   },
   {
@@ -7065,7 +7065,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LocationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LocationApiController.php",
     "groupTitle": "Location"
   },
   {
@@ -7103,7 +7103,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LocationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LocationApiController.php",
     "groupTitle": "Location"
   },
   {
@@ -7159,7 +7159,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LocationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LocationApiController.php",
     "groupTitle": "Location"
   },
   {
@@ -7327,7 +7327,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LocationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LocationApiController.php",
     "groupTitle": "Location"
   },
   {
@@ -7449,7 +7449,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LocationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LocationApiController.php",
     "groupTitle": "Location"
   },
   {
@@ -7526,7 +7526,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LocationApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LocationApiController.php",
     "groupTitle": "Location"
   },
   {
@@ -7582,7 +7582,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LogApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LogApiController.php",
     "groupTitle": "Log"
   },
   {
@@ -7641,7 +7641,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LogApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LogApiController.php",
     "groupTitle": "Log"
   },
   {
@@ -7679,7 +7679,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LogApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LogApiController.php",
     "groupTitle": "Log"
   },
   {
@@ -7735,7 +7735,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LogApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LogApiController.php",
     "groupTitle": "Log"
   },
   {
@@ -7846,7 +7846,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/LogApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/LogApiController.php",
     "groupTitle": "Log"
   },
   {
@@ -7914,7 +7914,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -7973,7 +7973,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrdercouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrdercouponApiController.php",
     "groupTitle": "OrderCoupon"
   },
   {
@@ -8011,7 +8011,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrdercouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrdercouponApiController.php",
     "groupTitle": "OrderCoupon"
   },
   {
@@ -8060,7 +8060,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrdercouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrdercouponApiController.php",
     "groupTitle": "OrderCoupon"
   },
   {
@@ -8130,7 +8130,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrdercouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrdercouponApiController.php",
     "groupTitle": "OrderCoupon"
   },
   {
@@ -8325,7 +8325,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -8377,7 +8377,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -8429,7 +8429,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -8467,7 +8467,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -8505,7 +8505,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -8582,7 +8582,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
     "groupTitle": "OrderFulfillment"
   },
   {
@@ -8659,7 +8659,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
     "groupTitle": "OrderFulfillment"
   },
   {
@@ -8805,7 +8805,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
     "groupTitle": "OrderFulfillment"
   },
   {
@@ -8868,7 +8868,84 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
+    "groupTitle": "OrderFulfillment"
+  },
+  {
+    "type": "delete",
+    "url": "/order/:order_id/fulfillments/:id",
+    "title": "delete",
+    "name": "UpdateOrderFulfillment",
+    "group": "OrderFulfillment",
+    "version": "2.0.1",
+    "description": "<p>Delete an order fulfillment for a given order.</p>",
+    "permission": [
+      {
+        "name": "admin"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "access_token",
+            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "order_id",
+            "description": "<p>Order ID.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "id",
+            "description": "<p>OrderFulfillment ID.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<p>Request code</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "status",
+            "description": "<p>Request status</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "result",
+            "description": "<p>Deleted Order Fulfillment ID</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n  {\n       \"code\": 200,\n       \"status\": \"OK\",\n       \"result\": \"67890\"\n  }",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
     "groupTitle": "OrderFulfillment"
   },
   {
@@ -9021,84 +9098,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
-    "groupTitle": "OrderFulfillment"
-  },
-  {
-    "type": "delete",
-    "url": "/order/:order_id/fulfillments/:id",
-    "title": "delete",
-    "name": "UpdateOrderFulfillment",
-    "group": "OrderFulfillment",
-    "version": "2.0.1",
-    "description": "<p>Delete an order fulfillment for a given order.</p>",
-    "permission": [
-      {
-        "name": "admin"
-      }
-    ],
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "order_id",
-            "description": "<p>Order ID.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "id",
-            "description": "<p>OrderFulfillment ID.</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "code",
-            "description": "<p>Request code</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "status",
-            "description": "<p>Request status</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "result",
-            "description": "<p>Deleted Order Fulfillment ID</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n  {\n       \"code\": 200,\n       \"status\": \"OK\",\n       \"result\": \"67890\"\n  }",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderfulfillmentApiController.php",
     "groupTitle": "OrderFulfillment"
   },
   {
@@ -9288,7 +9288,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -9389,7 +9389,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderitemApiController.php",
     "groupTitle": "OrderItem"
   },
   {
@@ -9427,7 +9427,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderitemApiController.php",
     "groupTitle": "OrderItem"
   },
   {
@@ -9476,7 +9476,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderitemApiController.php",
     "groupTitle": "OrderItem"
   },
   {
@@ -9588,7 +9588,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderitemApiController.php",
     "groupTitle": "OrderItem"
   },
   {
@@ -9651,7 +9651,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderpaymentApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderpaymentApiController.php",
     "groupTitle": "OrderPayment"
   },
   {
@@ -9700,7 +9700,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -9713,7 +9713,7 @@ define({ "api": [
     "description": "<p>Cancel's Order Return by ID</p>",
     "permission": [
       {
-        "name": "admin,customer"
+        "name": "admin,customer,guest"
       }
     ],
     "parameter": {
@@ -9732,6 +9732,20 @@ define({ "api": [
             "optional": true,
             "field": "access_token",
             "description": "<p>oAuth2.0 client token required if Customer is not logged in, else Customer's ID will be provided.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "email",
+            "description": "<p>As guest an couple email, order_number must be provided.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "order_number",
+            "description": "<p>As guest an couple email, order_number must be provided.</p>"
           }
         ]
       }
@@ -9745,7 +9759,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderreturnApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderreturnApiController.php",
     "groupTitle": "OrderReturn"
   },
   {
@@ -9758,7 +9772,7 @@ define({ "api": [
     "description": "<p>Create Order Return.</p>",
     "permission": [
       {
-        "name": "admin"
+        "name": "admin,customer,guest"
       }
     ],
     "parameter": {
@@ -9773,8 +9787,22 @@ define({ "api": [
           },
           {
             "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "email",
+            "description": "<p>As guest an couple email, order_number must be provided.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "order_number",
+            "description": "<p>As guest an couple email, order_number must be provided.</p>"
+          },
+          {
+            "group": "Parameter",
             "type": "Number",
-            "optional": false,
+            "optional": true,
             "field": "customer_id",
             "description": "<p>Customer ID</p>"
           },
@@ -9825,7 +9853,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderreturnApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderreturnApiController.php",
     "groupTitle": "OrderReturn"
   },
   {
@@ -9863,7 +9891,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderreturnApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderreturnApiController.php",
     "groupTitle": "OrderReturn"
   },
   {
@@ -9876,7 +9904,7 @@ define({ "api": [
     "description": "<p>Fetch Order Return(s).</p>",
     "permission": [
       {
-        "name": "admin,customer"
+        "name": "admin,customer,guest"
       }
     ],
     "parameter": {
@@ -9888,6 +9916,20 @@ define({ "api": [
             "optional": true,
             "field": "access_token",
             "description": "<p>oAuth2.0 client token required if Customer is not logged in, else results will be filtered by Customer's ID.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "email",
+            "description": "<p>As guest an couple email, order_number must be provided.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "order_number",
+            "description": "<p>As guest an couple email, order_number must be provided.</p>"
           }
         ]
       }
@@ -9912,7 +9954,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderreturnApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderreturnApiController.php",
     "groupTitle": "OrderReturn"
   },
   {
@@ -10003,7 +10045,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderreturnApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderreturnApiController.php",
     "groupTitle": "OrderReturn"
   },
   {
@@ -10052,7 +10094,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -10090,7 +10132,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -10259,7 +10301,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -10297,7 +10339,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/OrderApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/OrderApiController.php",
     "groupTitle": "Order"
   },
   {
@@ -10384,7 +10426,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/PluginApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/PluginApiController.php",
     "groupTitle": "Plugin"
   },
   {
@@ -10422,7 +10464,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/PluginApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/PluginApiController.php",
     "groupTitle": "Plugin"
   },
   {
@@ -10471,7 +10513,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/PluginApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/PluginApiController.php",
     "groupTitle": "Plugin"
   },
   {
@@ -10562,7 +10604,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/PluginApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/PluginApiController.php",
     "groupTitle": "Plugin"
   },
   {
@@ -10727,7 +10769,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ProductApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ProductApiController.php",
     "groupTitle": "Product"
   },
   {
@@ -10765,7 +10807,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ProductApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ProductApiController.php",
     "groupTitle": "Product"
   },
   {
@@ -10796,7 +10838,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ProductApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ProductApiController.php",
     "groupTitle": "Product"
   },
   {
@@ -10840,7 +10882,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ProductApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ProductApiController.php",
     "groupTitle": "Product"
   },
   {
@@ -11005,7 +11047,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ProductApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ProductApiController.php",
     "groupTitle": "Product"
   },
   {
@@ -11098,7 +11140,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/components/ApiControllerBase.php",
+    "filename": "/var/www/acenda/app/protected/components/ApiControllerBase.php",
     "groupTitle": "ReadAttributes"
   },
   {
@@ -11129,7 +11171,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegionApiController.php",
     "groupTitle": "Region"
   },
   {
@@ -11160,7 +11202,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegionApiController.php",
     "groupTitle": "Region"
   },
   {
@@ -11216,7 +11258,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryApiController.php",
     "groupTitle": "Registry"
   },
   {
@@ -11324,7 +11366,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryApiController.php",
     "groupTitle": "Registry"
   },
   {
@@ -11362,7 +11404,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryApiController.php",
     "groupTitle": "Registry"
   },
   {
@@ -11418,7 +11460,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryApiController.php",
     "groupTitle": "Registry"
   },
   {
@@ -11474,7 +11516,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryitemApiController.php",
     "groupTitle": "RegistryItem"
   },
   {
@@ -11540,7 +11582,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryitemApiController.php",
     "groupTitle": "RegistryItem"
   },
   {
@@ -11578,7 +11620,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryitemApiController.php",
     "groupTitle": "RegistryItem"
   },
   {
@@ -11634,7 +11676,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryitemApiController.php",
     "groupTitle": "RegistryItem"
   },
   {
@@ -11732,7 +11774,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryitemApiController.php",
     "groupTitle": "RegistryItem"
   },
   {
@@ -11798,7 +11840,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryitemApiController.php",
     "groupTitle": "RegistryItem"
   },
   {
@@ -11896,7 +11938,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryApiController.php",
     "groupTitle": "Registry"
   },
   {
@@ -11934,7 +11976,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryApiController.php",
     "groupTitle": "Registry"
   },
   {
@@ -12095,7 +12137,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryApiController.php",
     "groupTitle": "Registry"
   },
   {
@@ -12203,7 +12245,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/RegistryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/RegistryApiController.php",
     "groupTitle": "Registry"
   },
   {
@@ -12267,7 +12309,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/RepoApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/RepoApiController.php",
     "groupTitle": "Repo"
   },
   {
@@ -12354,7 +12396,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/RepoApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/RepoApiController.php",
     "groupTitle": "Repo"
   },
   {
@@ -12433,7 +12475,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/RepoApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/RepoApiController.php",
     "groupTitle": "Repo"
   },
   {
@@ -12504,7 +12546,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/RepoApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/RepoApiController.php",
     "groupTitle": "Repo"
   },
   {
@@ -12576,7 +12618,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/RepoApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/RepoApiController.php",
     "groupTitle": "Repo"
   },
   {
@@ -12592,7 +12634,7 @@ define({ "api": [
         "name": "admin"
       }
     ],
-    "filename": "./app/protected/modules/admin/controllers/api/RepoApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/RepoApiController.php",
     "groupTitle": "Repo"
   },
   {
@@ -12656,7 +12698,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/RepoApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/RepoApiController.php",
     "groupTitle": "Repo"
   },
   {
@@ -12672,7 +12714,7 @@ define({ "api": [
         "name": "admin"
       }
     ],
-    "filename": "./app/protected/modules/admin/controllers/api/RepoApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/RepoApiController.php",
     "groupTitle": "Repo"
   },
   {
@@ -12723,12 +12765,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [{\n       \"id\": \"123\",\n       \"date_created\": \"2015-05-01 13:24:05\",\n       \"date_modified\": \"2015-05-01 13:24:05\",\n       \"name\": \"Test\",\n       \"short_description\": \"Short description\",\n       \"html_description\": \"<h1>HTML Description</h1>\",\n       \"json_credentials_description\": \"{\\\"test\\\": \\\"My Label for test\\\", \\\"test2\\\": \\\"My Label for test2\\\"}\",\n       \"status\": \"validated\",\n       \"client_id\": \"sample@aceda.com\"\n   }]\n}",
+          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [{\n       \"id\": \"123\",\n       \"date_created\": \"2015-05-01 13:24:05\",\n       \"date_modified\": \"2015-05-01 13:24:05\",\n       \"name\": \"Test\",\n       \"short_description\": \"Short description\",\n       \"html_description\": \"<h1>HTML Description</h1>\",\n       \"json_credentials_description\": \"{\\\"test\\\": \\\"My Label for test\\\", \\\"test2\\\": \\\"My Label for test2\\\"}\",\n       \"status\": \"validated\",\n       \"client_id\": \"sample@aceda.com\",\n       \"available_actions\": [\n          {\n              \"action\": \"test2\",\n              \"description\": \"test3\"\n          }\n       ],\n       \"events\": {\n          \"onOrderPlaced\": [\n              \"test\"\n           ]\n       },\n       \"scheduled_actions\": [\n          {\n              \"function\": \"recurring_export\",\n              \"cron_string\": \"0 * * * *\",\n              \"editable\": true\n          },\n          {\n              \"function\": \"tetet\",\n              \"cron_string\": \"0 0 * * 0\",\n              \"editable\": true\n          }\n       ],\n       \"users\": [\n          \"thiebaud@acenda.com\"\n       ],\n       \"rights\": [\n          \"orders:read\",\n          \"orders:write\",\n       ],\n   }]\n}",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ServiceApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ServiceApiController.php",
     "groupTitle": "Service"
   },
   {
@@ -12760,8 +12802,36 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
+            "field": "store_name",
+            "description": "<p>Subscriber store name.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "title",
+            "description": "<p>Subscriber title for the subscription.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "status",
+            "description": "<p>Status of the subscription (active / paused)</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
             "field": "credentials",
             "description": "<p>Service credentials.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Array",
+            "optional": false,
+            "field": "scheduled_actions",
+            "description": "<p>Array of scheduled actions and cron strings.</p>"
           }
         ]
       }
@@ -12791,7 +12861,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
     "groupTitle": "ServiceSubscribers"
   },
   {
@@ -12829,7 +12899,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
     "groupTitle": "ServiceSubscribers"
   },
   {
@@ -12871,7 +12941,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
     "groupTitle": "ServiceSubscribers"
   },
   {
@@ -12931,12 +13001,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [{\n       \"id\": \"123\",\n       \"service_id\": \"5\",\n       \"store_name\": \"mystore\",\n       \"credentials\": \"{\\\"test\\\": \\\"My Label for test\\\", \\\"test2\\\": \\\"My Label for test2\\\"}\",\n   }]\n}",
+          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [{\n       \"id\": \"123\",\n       \"service_id\": \"5\",\n       \"store_name\": \"mystore\",\n       \"credentials\": \"{\\\"test\\\": \\\"My Label for test\\\", \\\"test2\\\": \\\"My Label for test2\\\"}\",\n       \"scheduled_actions\": [\n          {\n              \"function\": \"recurring_export\",\n              \"cron_string\": \"0 * * * *\",\n              \"editable\": true\n          }\n       ],\n       \"title\": \"Recurring Exports V2\",\n       \"status\": \"paused\",\n       \"overridden_scheduled_actions\": []\n   }]\n}",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
     "groupTitle": "ServiceSubscribers"
   },
   {
@@ -12969,7 +13039,21 @@ define({ "api": [
             "type": "String",
             "optional": false,
             "field": "store_name",
-            "description": "<p>Store that subscribed to the service.</p>"
+            "description": "<p>Subscriber store name.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "title",
+            "description": "<p>Subscriber title for the subscription.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "status",
+            "description": "<p>Status of the subscription (active / paused)</p>"
           },
           {
             "group": "Parameter",
@@ -12977,6 +13061,13 @@ define({ "api": [
             "optional": false,
             "field": "credentials",
             "description": "<p>Service credentials.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Array",
+            "optional": false,
+            "field": "scheduled_actions",
+            "description": "<p>Array of scheduled actions and cron strings.</p>"
           }
         ]
       }
@@ -12995,7 +13086,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ServicesubscribersApiController.php",
     "groupTitle": "ServiceSubscribers"
   },
   {
@@ -13028,12 +13119,12 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [{\n       \"id\": \"\",\n       \"date_created\": \"2015-05-01 13:24:05\",\n       \"date_modified\": \"2015-05-01 13:24:05\",\n       \"store_name\": \"sample\",\n       \"service_id\": \"42\",\n       \"credentials\": \"{\\\"test\\\":\\\"84\\\",\\\"test2\\\":\\\"42\\\"}\"\n   }]\n}",
+          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [{\n       \"id\": \"\",\n       \"date_created\": \"2015-05-01 13:24:05\",\n       \"date_modified\": \"2015-05-01 13:24:05\",\n       \"store_name\": \"sample\",\n       \"service_id\": \"42\",\n       \"credentials\": \"{\\\"test\\\":\\\"84\\\",\\\"test2\\\":\\\"42\\\"}\"\n       \"scheduled_actions\": [\n          {\n              \"function\": \"recurring_export\",\n              \"cron_string\": \"0 0 * * 0\",\n              \"editable\": true\n          }\n       ],\n       \"overridden_scheduled_actions\": [\n          {\n              \"function\": \"recurring_export\",\n              \"cron_string\": \"* * * * *\"\n          }\n       ],\n       \"title\": \"Recurring Exports for ORders\",\n       \"status\": \"active\"\n   }]\n}",
           "type": "json"
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/ServiceApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ServiceApiController.php",
     "groupTitle": "Service"
   },
   {
@@ -13058,7 +13149,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartApiController.php",
     "groupTitle": "SessionCart"
   },
   {
@@ -13103,7 +13194,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartApiController.php",
     "groupTitle": "SessionCart"
   },
   {
@@ -13141,7 +13232,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
     "groupTitle": "SessionCartCoupon"
   },
   {
@@ -13166,7 +13257,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
     "groupTitle": "SessionCartCoupon"
   },
   {
@@ -13202,7 +13293,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
     "groupTitle": "SessionCartCoupon"
   },
   {
@@ -13240,7 +13331,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
     "groupTitle": "SessionCartCoupon"
   },
   {
@@ -13289,7 +13380,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartcouponApiController.php",
     "groupTitle": "SessionCartCoupon"
   },
   {
@@ -13339,7 +13430,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartApiController.php",
     "groupTitle": "SessionCart"
   },
   {
@@ -13364,8 +13455,145 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartApiController.php",
     "groupTitle": "SessionCart"
+  },
+  {
+    "type": "post",
+    "url": "/SessionCartDiscount",
+    "title": "create",
+    "name": "Create",
+    "group": "SessionCartDiscount",
+    "version": "2.0.1",
+    "description": "<p>Create SessionCartDiscount entry.</p>",
+    "permission": [
+      {
+        "name": "guest"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "type",
+            "description": "<p>Discount Type</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": \"OK\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartdiscountApiController.php",
+    "groupTitle": "SessionCartDiscount"
+  },
+  {
+    "type": "delete",
+    "url": "/SessionCartDiscount/[:id]",
+    "title": "delete",
+    "name": "Delete",
+    "group": "SessionCartDiscount",
+    "version": "2.0.1",
+    "description": "<p>Delete SessionCartDiscount entry by ID</p>",
+    "permission": [
+      {
+        "name": "guest"
+      }
+    ],
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": \"OK\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartdiscountApiController.php",
+    "groupTitle": "SessionCartDiscount"
+  },
+  {
+    "type": "get",
+    "url": "/SessionCartDiscount/[:id]",
+    "title": "read",
+    "name": "Read",
+    "group": "SessionCartDiscount",
+    "version": "2.0.1",
+    "description": "<p>Fetches SessionCartDiscount(s).</p>",
+    "permission": [
+      {
+        "name": "guest"
+      }
+    ],
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Array",
+            "optional": false,
+            "field": "SessionCartDiscount",
+            "description": "<p>(s)</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [\n       {\n           \"code\": 'PROMO1',\n       },\n       ...\n   ]\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartdiscountApiController.php",
+    "groupTitle": "SessionCartDiscount"
+  },
+  {
+    "type": "get",
+    "url": "/SessionCartDiscount/Refresh",
+    "title": "refresh",
+    "name": "Refresh",
+    "group": "SessionCartDiscount",
+    "version": "2.0.1",
+    "description": "<p>Refresh Discounts</p>",
+    "permission": [
+      {
+        "name": "guest"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<p>Code</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": \"\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartdiscountApiController.php",
+    "groupTitle": "SessionCartDiscount"
   },
   {
     "type": "post",
@@ -13409,7 +13637,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartitemApiController.php",
     "groupTitle": "SessionCartItem"
   },
   {
@@ -13434,7 +13662,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartitemApiController.php",
     "groupTitle": "SessionCartItem"
   },
   {
@@ -13470,7 +13698,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartitemApiController.php",
     "groupTitle": "SessionCartItem"
   },
   {
@@ -13526,7 +13754,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartitemApiController.php",
     "groupTitle": "SessionCartItem"
   },
   {
@@ -13562,7 +13790,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartApiController.php",
     "groupTitle": "SessionCart"
   },
   {
@@ -13612,7 +13840,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SessioncartApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SessioncartApiController.php",
     "groupTitle": "SessionCart"
   },
   {
@@ -13637,7 +13865,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/SetupprogressApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/SetupprogressApiController.php",
     "groupTitle": "Setupprogress"
   },
   {
@@ -13662,7 +13890,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/admin/controllers/api/SetupprogressApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/SetupprogressApiController.php",
     "groupTitle": "Setupprogress"
   },
   {
@@ -13718,7 +13946,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
     "groupTitle": "ShippingException"
   },
   {
@@ -13777,7 +14005,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
     "groupTitle": "ShippingException"
   },
   {
@@ -13815,7 +14043,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
     "groupTitle": "ShippingException"
   },
   {
@@ -13871,7 +14099,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
     "groupTitle": "ShippingException"
   },
   {
@@ -13962,7 +14190,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
     "groupTitle": "ShippingException"
   },
   {
@@ -14021,7 +14249,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingexceptionApiController.php",
     "groupTitle": "ShippingException"
   },
   {
@@ -14091,7 +14319,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
     "groupTitle": "ShippingMethod"
   },
   {
@@ -14147,7 +14375,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
     "groupTitle": "ShippingMethod"
   },
   {
@@ -14230,7 +14458,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
     "groupTitle": "ShippingMethod"
   },
   {
@@ -14268,7 +14496,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
     "groupTitle": "ShippingMethod"
   },
   {
@@ -14324,7 +14552,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
     "groupTitle": "ShippingMethod"
   },
   {
@@ -14387,7 +14615,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
     "groupTitle": "ShippingMethod"
   },
   {
@@ -14506,7 +14734,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
     "groupTitle": "ShippingMethod"
   },
   {
@@ -14589,7 +14817,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingmethodApiController.php",
     "groupTitle": "ShippingMethod"
   },
   {
@@ -14645,7 +14873,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingruleApiController.php",
     "groupTitle": "ShippingRule"
   },
   {
@@ -14732,7 +14960,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingruleApiController.php",
     "groupTitle": "ShippingRule"
   },
   {
@@ -14770,7 +14998,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingruleApiController.php",
     "groupTitle": "ShippingRule"
   },
   {
@@ -14826,7 +15054,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingruleApiController.php",
     "groupTitle": "ShippingRule"
   },
   {
@@ -14959,7 +15187,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingruleApiController.php",
     "groupTitle": "ShippingRule"
   },
   {
@@ -15046,7 +15274,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ShippingruleApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ShippingruleApiController.php",
     "groupTitle": "ShippingRule"
   },
   {
@@ -15087,7 +15315,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15118,7 +15346,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15169,7 +15397,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15299,7 +15527,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15344,7 +15572,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15375,7 +15603,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15406,7 +15634,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15446,7 +15674,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15486,7 +15714,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15531,7 +15759,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15572,7 +15800,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15613,7 +15841,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15649,7 +15877,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/SiteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/SiteApiController.php",
     "groupTitle": "Site"
   },
   {
@@ -15722,7 +15950,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxcountryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxcountryApiController.php",
     "groupTitle": "TaxCountry"
   },
   {
@@ -15760,7 +15988,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxcountryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxcountryApiController.php",
     "groupTitle": "TaxCountry"
   },
   {
@@ -15809,7 +16037,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxcountryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxcountryApiController.php",
     "groupTitle": "TaxCountry"
   },
   {
@@ -15893,7 +16121,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxcountryApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxcountryApiController.php",
     "groupTitle": "TaxCountry"
   },
   {
@@ -15952,7 +16180,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxdataApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxdataApiController.php",
     "groupTitle": "TaxData"
   },
   {
@@ -16025,7 +16253,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxoverwriteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxoverwriteApiController.php",
     "groupTitle": "TaxOverwrite"
   },
   {
@@ -16063,7 +16291,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxoverwriteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxoverwriteApiController.php",
     "groupTitle": "TaxOverwrite"
   },
   {
@@ -16112,7 +16340,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxoverwriteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxoverwriteApiController.php",
     "groupTitle": "TaxOverwrite"
   },
   {
@@ -16196,7 +16424,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxoverwriteApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxoverwriteApiController.php",
     "groupTitle": "TaxOverwrite"
   },
   {
@@ -16262,7 +16490,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxregionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxregionApiController.php",
     "groupTitle": "TaxRegion"
   },
   {
@@ -16300,7 +16528,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxregionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxregionApiController.php",
     "groupTitle": "TaxRegion"
   },
   {
@@ -16349,7 +16577,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxregionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxregionApiController.php",
     "groupTitle": "TaxRegion"
   },
   {
@@ -16426,7 +16654,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/TaxregionApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/TaxregionApiController.php",
     "groupTitle": "TaxRegion"
   },
   {
@@ -16471,7 +16699,52 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
+    "groupTitle": "ThemeConfig"
+  },
+  {
+    "type": "delete",
+    "url": "/theme/:theme_id/config",
+    "title": "delete",
+    "name": "CreateThemeConfig",
+    "group": "ThemeConfig",
+    "version": "2.0.1",
+    "description": "<p>delete a style</p>",
+    "permission": [
+      {
+        "name": "admin"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "access_token",
+            "description": "<p>mandatory oAuth2.0 client token (GET)</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "style",
+            "description": "<p>Style id (the default value is 'current') (GET)</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": \"\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
     "groupTitle": "ThemeConfig"
   },
   {
@@ -16523,7 +16796,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
     "groupTitle": "ThemeConfig"
   },
   {
@@ -16568,7 +16841,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
     "groupTitle": "ThemeConfig"
   },
   {
@@ -16624,7 +16897,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
     "groupTitle": "ThemeConfig"
   },
   {
@@ -16676,7 +16949,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeconfigApiController.php",
     "groupTitle": "ThemeConfig"
   },
   {
@@ -16735,7 +17008,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeApiController.php",
     "groupTitle": "Theme"
   },
   {
@@ -16780,7 +17053,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeApiController.php",
     "groupTitle": "Theme"
   },
   {
@@ -16818,7 +17091,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeApiController.php",
     "groupTitle": "Theme"
   },
   {
@@ -16870,7 +17143,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeApiController.php",
     "groupTitle": "Theme"
   },
   {
@@ -16919,7 +17192,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeApiController.php",
     "groupTitle": "Theme"
   },
   {
@@ -16990,7 +17263,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeApiController.php",
     "groupTitle": "Theme"
   },
   {
@@ -17042,73 +17315,8 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeApiController.php",
     "groupTitle": "Theme"
-  },
-  {
-    "type": "get",
-    "url": "/themestore/getall",
-    "title": "get all entries",
-    "name": "GetAll",
-    "group": "ThemeStore",
-    "version": "2.0.1",
-    "description": "<p>Get all entries in Acenda Theme Store</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "format",
-            "defaultValue": "json",
-            "description": "<p>Return format, can also be xml.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": true,
-            "field": "attributes",
-            "defaultValue": "id,date_created,date_modified,name,repository,tag,title,type,status,description",
-            "description": "<p>Filters fields to be returned.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "access_token",
-            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "Array",
-            "optional": false,
-            "field": "Theme",
-            "description": "<p>store entries</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n   \"num_total\": 1,\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": [\n       {\n           \"id\": \"1\",\n           \"date_created\": \"2014-12-18 09:13:06\",\n           \"date_modified\": \"2015-01-28 10:32:03\",\n           \"name\": \"acenda_store_default\",\n           \"repository\": \"https://github.com/torreycommerce/acenda_default.git\",\n           \"tag\": \"0c3cc88d48f7d6481e35ad4e5afac0d24ee91f82\",\n           \"title\": \"Acenda Store Default Theme\",\n           \"type\": \"store\",\n           \"status\": \"validated\",\n           \"description\": \"Description of Acenda default theme\"\n        },\n   ]\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "permission": [
-      {
-        "name": "admin"
-      }
-    ],
-    "filename": "./app/protected/modules/admin/controllers/api/ThemestoreApiController.php",
-    "groupTitle": "ThemeStore"
   },
   {
     "type": "get",
@@ -17172,7 +17380,7 @@ define({ "api": [
         "name": "admin"
       }
     ],
-    "filename": "./app/protected/modules/admin/controllers/api/ThemestoreApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/ThemestoreApiController.php",
     "groupTitle": "ThemeStore"
   },
   {
@@ -17242,7 +17450,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/ThemeApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/ThemeApiController.php",
     "groupTitle": "Theme"
   },
   {
@@ -17286,7 +17494,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/VariantApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/VariantApiController.php",
     "groupTitle": "Variant"
   },
   {
@@ -17337,7 +17545,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/VariantApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/VariantApiController.php",
     "groupTitle": "Variant"
   },
   {
@@ -17575,7 +17783,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/VariantApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/VariantApiController.php",
     "groupTitle": "Variant"
   },
   {
@@ -17613,7 +17821,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/VariantApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/VariantApiController.php",
     "groupTitle": "Variant"
   },
   {
@@ -17662,7 +17870,7 @@ define({ "api": [
         ]
       }
     },
-    "filename": "./app/protected/modules/store/controllers/api/VariantApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/VariantApiController.php",
     "groupTitle": "Variant"
   },
   {
@@ -17706,7 +17914,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/VariantApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/VariantApiController.php",
     "groupTitle": "Variant"
   },
   {
@@ -17946,7 +18154,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/VariantApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/VariantApiController.php",
     "groupTitle": "Variant"
   },
   {
@@ -18173,7 +18381,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/VariantApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/VariantApiController.php",
     "groupTitle": "Variant"
   },
   {
@@ -18267,7 +18475,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WidgetApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WidgetApiController.php",
     "groupTitle": "Widget"
   },
   {
@@ -18305,7 +18513,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WidgetApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WidgetApiController.php",
     "groupTitle": "Widget"
   },
   {
@@ -18349,7 +18557,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WidgetApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WidgetApiController.php",
     "groupTitle": "Widget"
   },
   {
@@ -18370,6 +18578,14 @@ define({ "api": [
             "field": "slug",
             "defaultValue": "...",
             "description": "<p>Widget Slug.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Array",
+            "optional": true,
+            "field": "params",
+            "defaultValue": "{key:",
+            "description": "<p>value}] Overload Parameters</p>"
           }
         ]
       }
@@ -18394,7 +18610,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WidgetApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WidgetApiController.php",
     "groupTitle": "Widget"
   },
   {
@@ -18459,7 +18675,7 @@ define({ "api": [
         "name": "admin"
       }
     ],
-    "filename": "./app/protected/modules/admin/controllers/api/WidgetstoreApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/admin/controllers/api/WidgetstoreApiController.php",
     "groupTitle": "WidgetStore"
   },
   {
@@ -18557,7 +18773,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WidgetApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WidgetApiController.php",
     "groupTitle": "Widget"
   },
   {
@@ -18630,7 +18846,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistApiController.php",
     "groupTitle": "Wishlist"
   },
   {
@@ -18655,7 +18871,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistApiController.php",
     "groupTitle": "Wishlist"
   },
   {
@@ -18721,7 +18937,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistitemApiController.php",
     "groupTitle": "WishlistItem"
   },
   {
@@ -18746,7 +18962,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistitemApiController.php",
     "groupTitle": "WishlistItem"
   },
   {
@@ -18791,7 +19007,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistitemApiController.php",
     "groupTitle": "WishlistItem"
   },
   {
@@ -18868,7 +19084,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistitemApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistitemApiController.php",
     "groupTitle": "WishlistItem"
   },
   {
@@ -18906,7 +19122,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistApiController.php",
     "groupTitle": "Wishlist"
   },
   {
@@ -18944,7 +19160,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistApiController.php",
     "groupTitle": "Wishlist"
   },
   {
@@ -18980,7 +19196,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistApiController.php",
     "groupTitle": "Wishlist"
   },
   {
@@ -19064,8 +19280,338 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/modules/store/controllers/api/WishlistApiController.php",
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/WishlistApiController.php",
     "groupTitle": "Wishlist"
+  },
+  {
+    "type": "post",
+    "url": "/bundle",
+    "title": "create",
+    "name": "Create",
+    "group": "bundle",
+    "version": "2.0.1",
+    "description": "<p>Create a new bundle.</p>",
+    "permission": [
+      {
+        "name": "admin"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "access_token",
+            "description": "<p>oAuth2.0 client token (GET).</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<p>bundle code.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "date_begins",
+            "description": "<p>bundle starting date.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "status",
+            "description": "<p>Status of the bundles. Can be only be 'active' or 'disabled'.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "date_expires",
+            "description": "<p>bundle expiring date.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "global",
+            "description": "<p>If the bundle is a global discount. Must equal '0' or '1'.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "number_uses",
+            "description": "<p>NUmber of time the bundle can be used.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "single",
+            "description": "<p>If the bundle cannot be used with other bundle. Must equal '0' or '1'.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "result",
+            "description": "<p>ID of bundle created.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 201 Created\n{\n   \"code\": 201,\n   \"status\": \"Created\",\n   \"result\": \"7\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/BundleApiController.php",
+    "groupTitle": "bundle"
+  },
+  {
+    "type": "delete",
+    "url": "/bundle/:id",
+    "title": "delete",
+    "name": "Delete",
+    "group": "bundle",
+    "version": "2.0.1",
+    "description": "<p>delete a specific bundlen</p>",
+    "permission": [
+      {
+        "name": "admin"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "access_token",
+            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n  {\n       code\": 200,\n       status: \"OK\",\n       result: \"OK\"\n  }",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/BundleApiController.php",
+    "groupTitle": "bundle"
+  },
+  {
+    "type": "get",
+    "url": "/bundle/export",
+    "title": "export",
+    "name": "Export",
+    "group": "bundle",
+    "version": "2.0.1",
+    "description": "<p>Export Bundle Table.</p>",
+    "permission": [
+      {
+        "name": "admin"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "access_token",
+            "description": "<p>mandatory oAuth2.0 client token (GET).</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "cvs",
+            "optional": false,
+            "field": "result",
+            "description": "<p>List of bundles.</p>"
+          }
+        ]
+      }
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/BundleApiController.php",
+    "groupTitle": "bundle"
+  },
+  {
+    "type": "get",
+    "url": "/bundle/[:id]",
+    "title": "read",
+    "name": "Read",
+    "group": "bundle",
+    "version": "2.0.1",
+    "description": "<p>List bundles, or fetch a specific one if an id is specified.</p>",
+    "permission": [
+      {
+        "name": "admin"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "access_token",
+            "description": "<p>Mandatory oAuth2.0 client token (GET).</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "attributes",
+            "defaultValue": "id,code,date_created,date_modified,number_uses,date_begins,date_expires,status,single,global",
+            "description": "<p>Filters fields to be returned.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": true,
+            "field": "format",
+            "defaultValue": "json",
+            "description": "<p>Return format, can also be xml.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Array",
+            "optional": false,
+            "field": "List",
+            "description": "<p>of bundles or specific customer.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n  {\n       num_total: 1,\n       code\": 200,\n       status: \"OK\",\n       result: [\n          { \"id\": \"3\",\n            \"code\": [\"abcde\"],\n            \"date_begins\": \"2015-07-08T07:00:00.000Z\",\n            \"date_created\": \"2015-07-09 09:37:10\",\n            \"date_expires\": \"2015-08-08T07:00:00.000Z\",\n            \"date_modified\": \"2015-07-09 11:57:06\",\n            \"global\": \"1\",\n            \"number_uses\": \"100\",\n            \"single\": \"1\",\n            \"status\": \"active\",\n          }\n      ]\n  }",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/BundleApiController.php",
+    "groupTitle": "bundle"
+  },
+  {
+    "type": "put",
+    "url": "/bundle/:id",
+    "title": "update",
+    "name": "Update",
+    "group": "bundle",
+    "version": "2.0.1",
+    "description": "<p>Update a bundle.</p>",
+    "permission": [
+      {
+        "name": "admin"
+      }
+    ],
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "access_token",
+            "description": "<p>mandatory oAuth2.0 client token (GET).</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<p>bundle code.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "date_begins",
+            "description": "<p>bundle starting date.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "status",
+            "description": "<p>Status of the bundles. Can be only be 'active' or 'disabled'.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "date_expires",
+            "description": "<p>bundle expiring date.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "global",
+            "description": "<p>If the bundle is a global discount. Must equal '0' or '1'.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "number_uses",
+            "description": "<p>NUmber of time the bundle can be used.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "single",
+            "description": "<p>If the bundle cannot be used with other bundle. Must equal '0' or '1'.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{\n   \"code\": 200,\n   \"status\": \"OK\",\n   \"result\": \"OK\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "/var/www/acenda/app/protected/modules/store/controllers/api/BundleApiController.php",
+    "groupTitle": "bundle"
   },
   {
     "type": "post",
@@ -19149,7 +19695,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/controllers/OauthController.php",
+    "filename": "/var/www/acenda/app/protected/controllers/OauthController.php",
     "groupTitle": "oAuth"
   },
   {
@@ -19248,7 +19794,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./app/protected/controllers/OauthController.php",
+    "filename": "/var/www/acenda/app/protected/controllers/OauthController.php",
     "groupTitle": "oAuth"
   }
 ] });
