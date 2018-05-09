@@ -3,7 +3,7 @@ pipeline:
     image: ruby:2.3.7-alpine
     commands:
       - apk update
-      - apk install make gcc
+      - apk add make gcc
       - bundle install
       - cap production deploy
     when:
