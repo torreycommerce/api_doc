@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: ruby:2.3.7-alpine
+    image: ruby:2.3.7
     commands:
       - apk update
       - apk add make gcc
