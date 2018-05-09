@@ -2,8 +2,6 @@ pipeline:
   build:
     image: ruby:2.3.7
     commands:
-      - apk update
-      - apk add make gcc
       - bundle install
       - cap production deploy
     when:
