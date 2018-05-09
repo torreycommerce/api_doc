@@ -1,0 +1,8 @@
+pipeline:
+  build:
+    image: ruby:2.5.1-alpine3.7
+    commands:
+      - bundle install
+      - cap production deploy
+    when:
+      branch: master
