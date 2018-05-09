@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'capistrano'
-gem 'capistrano-s3'
+gem 'capistrano', '3.4.1'
+gem 'capistrano-s3', '2.2.0'
