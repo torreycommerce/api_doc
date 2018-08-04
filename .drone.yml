@@ -1,6 +1,6 @@
 pipeline:
   deploy:
-    image: glaszi/drone-capistrano
+    image: glaszig/drone-capistrano
     tasks: production deploy
     secrets:
       - api_bucket_key
