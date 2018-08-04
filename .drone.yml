@@ -6,3 +6,4 @@ pipeline:
       - cap production deploy
     when:
       branch: master
+    secret: [api_bucket_key, api_bucket_secret]
