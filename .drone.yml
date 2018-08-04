@@ -1,9 +1,19 @@
 pipeline:
-  build:
-    image: ruby:2.5.1
-    commands:
-      - bundle install
-      - cap production deploy
+  deploy:
+    image: glaszi/drone-capistrano
+    tasks: production deploy
+    secrets:
+      - api_bucket_key
+      - api_bucket_secret
     when:
       branch: master
-    secret: [api_bucket_key, api_bucket_secret]
+      event: push
+  #  build:
+  #  image: ruby:2.5.1
+  #  commands:
+  #    - bundle install
+  #    - cap production deploy
+  #  when:
+  #    branch: master
+  #    event: push
+  #  secret: [api_bucket_key, api_bucket_secret]
