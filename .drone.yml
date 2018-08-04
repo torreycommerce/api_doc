@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: ruby:2.3.7
+    image: ruby:2.5.1
     commands:
       - bundle install
       - cap production deploy
