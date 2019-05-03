@@ -1,19 +1,66 @@
-pipeline:
-  deploy:
-    image: glaszig/drone-capistrano
-    tasks: production deploy
-    secrets:
-      - api_bucket_key
-      - api_bucket_secret
+kind: pipeline
+name: default
+
+steps:
+  - name: build-started
+    image: plugins/slack
+    settings:
+      webhook:
+        from_secret: slackurl
+      channel: builds
+      username: drone
+      template: >
+        {{#success build.status}}
+          {{uppercasefirst repo.name}} build {{build.number}} started:  {{build.link}}
+          Commit: ${DRONE_COMMIT_LINK}
+        {{else}}
+          {{uppercasefirst repo.name}} build {{build.number}} failed: {{build.link}}
+        {{/success}}
     when:
-      branch: master
-      event: push
-  #  build:
-  #  image: ruby:2.5.1
-  #  commands:
-  #    - bundle install
-  #    - cap production deploy
-  #  when:
-  #    branch: master
-  #    event: push
-  #  secret: [api_bucket_key, api_bucket_secret]
+      status:
+        - success
+        - failure
+      branch:
+        - master
+      event:
+        - push
+        - tag
+
+  - name: deploy
+    image: glaszig/drone-capistrano
+    environment:
+      API_BUCKET_KEY:
+        from_secret: api_bucket_key
+      API_BUCKET_SECRET:
+        from_secret: api_bucket_secret
+    settings:
+      tasks: production deploy
+    when:
+      branch:
+        - master
+      event:
+        - push
+        - tag
+
+  - name: build-finished
+    image: plugins/slack
+    settings:
+      webhook:
+        from_secret: slackurl
+      username: drone
+      channel: builds
+      template: >
+        {{#success build.status}}
+          {{uppercasefirst repo.name}} build {{build.number}} succeeded after {{since build.started}}: {{build.link}}
+        {{else}}
+          {{uppercasefirst repo.name}} build {{build.number}} failed after {{since build.started}}: {{build.link}}
+        {{/success}}
+    when:
+      status:
+        - success
+        - failure
+      branch:
+        - master
+      event:
+        - push
+        - tag
